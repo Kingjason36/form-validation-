@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+:root {
+  --content-width: 60vw;
+}
+.contain {
+  background: linear-gradient(rgba(47, 71, 189, 0.507), rgb(36, 88, 97)),
+    url(./reading-book-732x549-thumbnail.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 15px;
+
+  font-size: 20px;
+}
+.title {
+  font-weight: 700;
+  font-size: calc(var(--content-width) * 0.06);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 2px rgba(139, 7, 7, 0.562);
+}
+.content {
+  width: 100%;
+  height: 30px;
+}
+
+.survey-form {
+  background: linear-gradient(rgba(17, 184, 206, 0.507), rgb(46, 142, 221));
+  padding: 50px;
+  text-align: left;
+  color: white;
+  width: var(--content-width);
+  margin: auto;
+}
+.amountError {
+  color: red;
+  font-size: smaller;
+}
+button {
+  background-color: rgba(14, 14, 160, 0.815);
+  color: white;
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+button:hover {
+  background-color: rgba(0, 0, 255, 0.164);
+}

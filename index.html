@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>scholarship</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="contain">
+      <form class="survey-form">
+        <h1 class="title">
+          Jay's Highschool
+        </h1>
+        <br><br>
+
+        <h3 class="title">
+          Kindly fill in the form correctly to access your Scholarship
+        </h3>
+        <br />
+        Enter First Name
+        <input type="text"  placeholder="Enter your first name" name="userLast" id="userLast"  /> 
+        Enter Last Name
+        <input type="text"  placeholder="Enter your last name" name="userName" id="userName"  /> <br><br>
+        
+
+        Phone Number
+        <input type="number"  placeholder="Enter Phone Number" name="userNumber" id="userNumber"  /> 
+       
+
+        <label for="">Gender</label>
+        <select name="Gender" id="Gender" >
+          <option value="">Gender</option>
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select>
+
+        <br><br>
+        <label for="">Select your age</label><br />
+        <select name="age" id="age" >
+          <option value="">Kindly select your right age range</option>
+          <option value="18 – 24">Within 18 – 24</option>
+          <option value="25 – 30">Within 25 – 30</option>
+          <option value="31 – 35">Within 31 – 35</option>
+          <option value="36 – 40">Within 36 – 40</option>
+          <option value="41 and above">Within 41 and above</option>
+        </select>
+
+        
+        <label for="">Country</label>
+        <select name="Country" id="Country" >
+          <option value="">Which country are you located</option>
+          <option value="Africa">Africa</option>
+          <option value="Asia">Asia</option>
+          <option value="South America">South America</option>
+          <option value="North America">North America</option>
+          <option value="Anywhere">located in rest part of the world</option>
+        </select>
+
+        <br /><br />
+      
+        <input type="text"  disabled placeholder="English" name="userName" id="userName"  /> 
+        <input placeholder="score">
+        
+        <br><br>
+
+        
+
+        <input type="text"  disabled placeholder="Maths" name="userName" id="userName"  /> 
+        <input placeholder="score">
+
+        <br><br>
+   <select name="selectStudents" id="selectStudents">
+       <option value="">Select Subject</option>
+   </select>
+   <input placeholder="score" id="score1">
+   
+   <br> <br>
+   <select name="selectStudents2" id="selectStudents2">
+    <option value="">Select Subject</option>
+</select>
+<input placeholder="score" id="score2">
+
+<br> <br>
+<select name="selectStudents3" id="selectStudents3">
+    <option value="">Select Subject</option>
+</select>
+<input placeholder="score" id="score3">
+
+<br> <br>
+<select name="selectStudents4" id="selectStudents4">
+    <option value="">Select Subject</option>
+</select>
+<input placeholder="score" id="score4">
+
+<br> <br>
+<select name="selectStudents5" id="selectStudents5">
+    <option value="">Select Subject</option>
+</select>
+<input placeholder="score" id="score5">
+
+
+<br> <br>
+<select name="selectStudents6" id="selectStudents6">
+    <option value="">Select Subject</option>
+</select>
+    <input placeholder="score" id="score6">
+
+
+        <span id="amountError" class="amountError"></span>
+        <br /><br />
+
+        <button type="button" id="regBtn">Check Your Eligibility</button>
+      </form>
+    </div>
+
+    <div>
+      <canvas id="myChart"></canvas>
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <script src="./main.js"></script>
+  </body>
+</html>
